@@ -1,0 +1,138 @@
+.slideContainer > .slide {
+  opacity: 0.8;
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+}
+
+.slide:first-child {
+  padding-top: 3em;
+}
+
+.primary-text {
+  font-family: "Rubik";
+}
+.primary-text > h3 {
+  font-size: 7vw;
+}
+.primary-text > p {
+  font-size: 4vw;
+}
+
+/* Slide colors */
+.slide:nth-child(1),
+.slide:nth-child(2) {
+  background-color: #3cc47c;
+}
+.slide:nth-child(3) {
+  background-image: linear-gradient(#3cc47c, #67aba3);
+}
+.slide:nth-child(4),
+.slide:nth-child(5) {
+  background-color: #67aba3;
+}
+.slide:nth-child(6) {
+  background-image: linear-gradient(#67aba3, #7E988A);
+
+}
+.slide:nth-child(7) {
+  background-color: #7E988A;
+}
+.slide:nth-child(8) {
+  background-image: linear-gradient(#7E988A, #EFBF73)
+}
+
+.promo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.promo > .primary-text {
+  text-align: center;
+  max-width: 44%;
+}
+
+.mobilePhoneIcon, .followersIcon {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.like-heart {
+  color: #1e392a;
+  font-size: 2em;
+}
+
+.card {
+  font-family: "Rubik";
+  font-size: 1em;
+  padding: 0em;
+  margin: 0;
+  width: 41%;
+}
+
+.card-title {
+  font-size: 2em;
+  padding: 0em;
+  margin: 0em;
+}
+
+/* Main offer slide */
+/*  */
+.main-offer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-offers {
+  background: rgba(30, 57, 42, 0.5);
+  color: white;
+}
+
+.list-group .list-group-item {
+  background-color: inherit;
+}
+
+.card-body {
+  font-size: 1.2em;
+  padding: 0;
+  background: rgba(30, 57, 42, 0.15);
+  font-weight: bold;
+}
+
+.call-to-action-offer {
+  padding: 1.1em 0em 1.1em 0em;
+}
+
+.full-width-button {
+  font-size: 1.2em;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 90%;
+  background: rgba(30, 57, 42, 0.90);
+}
+
+.card-img-top {
+  font-size: 4em;
+  background: rgba(30, 57, 42, 0.15);
+  padding-top: 0.1em;
+}
+
+.service-feature-slide {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.service-feature {
+  margin: 0.2em 0.1em 1em 0.1em;
+  max-width: 29em;
+  min-width:9em;
+}
+
+.service-feature > .card-text{
+  background: rgba(30, 57, 42, 0.15);
+  font-size: 0.85em;
+}
