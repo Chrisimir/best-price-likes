@@ -40,6 +40,12 @@
 .slide:nth-child(8) {
   background-image: linear-gradient(#7E988A, #EFBF73)
 }
+.slide:nth-child(9) {
+  background-image: linear-gradient(#EFBF73, #1F0F2F)
+}
+.slide:nth-child(10) {
+  background-color: #1F0F2F;
+}
 
 .promo {
   display: flex;
