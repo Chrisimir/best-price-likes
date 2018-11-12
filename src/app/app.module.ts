@@ -1,14 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { FormsModule } from "@angular/forms";
 
-import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { OffersComponent } from './offers/offers.component';
-import { UserPageComponent } from './user-page/user-page.component';
-import { AppRoutingModule } from './app-routing.module';
-import { FooterComponent } from './footer/footer.component';
+import { AppComponent } from "./app.component";
+import { LoginComponent } from "./login/login.component";
+import { NavBarComponent } from "./nav-bar/nav-bar.component";
+import { OffersComponent } from "./offers/offers.component";
+import { UserPageComponent } from "./user-page/user-page.component";
+import { AppRoutingModule } from "./app-routing.module";
+import { FooterComponent } from "./footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -22,9 +23,10 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
