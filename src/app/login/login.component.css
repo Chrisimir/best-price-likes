@@ -1,0 +1,31 @@
+.login-box {
+  margin: 1em;
+  padding: 1em 1.5em 1.7em 1em;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 0.4em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  padding-right: 1em;
+}
+
+input {
+  width: 12em;
+  font-size: 1.2em;
+  display: inline;
+}
+
+button {
+  margin-top: 1.5em;
+  padding: 1 1.5em 1 1.5em;
+  font-size: 1.3em;
+}

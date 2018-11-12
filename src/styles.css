@@ -6,3 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Modak');
 /* Fancy icons  */
 @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+body {
+  font-family: "Rubik";
+}
