@@ -12,11 +12,10 @@
   text-align: center;
 }
 
-.login-box {
+.register-box {
   border-radius: 15px;
-  padding: 1em 1.5em 1.7em 1em;
+  padding: 1em 0.5em 1.7em 0.5em;
   text-align: center;
-  /* background-color: rgb(103, 171, 163, 1); */
   background-color: white;
 }
 
@@ -31,13 +30,22 @@ form {
 }
 
 label {
-  padding-right: 1em;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
+.form-group {
+  text-align: left;
 }
 
 input {
-  width: 12em;
+  max-width: 2  1em;
   font-size: 1.2em;
-  display: inline;
+  display: block;
+}
+
+input::placeholder {
+  opacity: 0.3;
 }
 
 button {
@@ -46,9 +54,6 @@ button {
   font-size: 1.3em;
 }
 
-.forgot-password {
-  padding-top: 2.5em;
-}
 
 .full-width-button {
   opacity: 0.9;

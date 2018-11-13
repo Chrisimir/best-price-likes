@@ -13,6 +13,7 @@ ul {
 }
 
 .footer-logo {
+  padding-top: 0.3em;
   text-align: center;
   color: white;
   font-family: "Modak", cursive;

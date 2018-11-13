@@ -1,16 +1,38 @@
-<div class="card login-box">
-  <h1>Mi cuenta</h1>
-  <form>
-    <div class="form-group">
-      <label for="name"><i class="fas fa-user"></i></label>
-      <input type="text" class="form-control" id="user" placeholder="Usuario" required />
-    </div>
+<div class="slide">
+  <div class="card login-box">
+    <h1>Mi cuenta</h1>
+    <form>
+      <div class="form-group">
+        <label for="username"><i class="fas fa-user"></i></label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="@"
+          required
+        />
+      </div>
 
-    <div class="form-group">
-      <label for="password"><i class="fas fa-key"></i></label>
-      <input type="password" class="form-control" id="password" placeholder="Contraseña" required />
-    </div>
+      <div class="form-group">
+        <label for="password"><i class="fas fa-key"></i></label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="Contraseña"
+          required
+        />
+      </div>
 
-    <button type="submit" class="btn btn-success">Entrar</button>
-  </form>
+      <button type="submit" class="btn btn-success">Entrar</button>
+      <a class="forgot-password">¿Has olvidado tu contraseña?</a>
+    </form>
+  </div>
+</div>
+
+<div class="slide">
+  <button class="full-width-button" routerLink="/register">
+    ¿No tienes cuenta?
+    <h1>Regístrate</h1>
+  </button>
 </div>

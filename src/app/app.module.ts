@@ -10,6 +10,7 @@ import { OffersComponent } from "./offers/offers.component";
 import { UserPageComponent } from "./user-page/user-page.component";
 import { AppRoutingModule } from "./app-routing.module";
 import { FooterComponent } from "./footer/footer.component";
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from "./footer/footer.component";
     UserPageComponent,
     OffersComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
